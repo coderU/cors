@@ -16,7 +16,7 @@ stream.once('open', function(fd) {
   }
   else if(args[0] == 'product-server'){
     config.mode = 2;
-    config.url = "http://www.vokou.com, http://nmg.vokou.com";
+    config.url = "http://www.vokou.com";
   }
   stream.write(JSON.stringify(config));
   stream.end();
